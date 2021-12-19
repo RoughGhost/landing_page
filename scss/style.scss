@@ -1,0 +1,12 @@
+@use "custom";
+
+//IMPORT THE COMPONENTS
+@use "components/mixins.scss";
+@use "components/buttons.scss";
+
+// IMPORT THE SECTIONS
+@use "sections/navbar";
+@use "sections/intro-section";
+@use "sections/services";
+@use "sections/footer";
+@use "sections/companies";

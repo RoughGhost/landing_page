@@ -1,0 +1,23 @@
+// MY THEME COLORS
+$green-dark: #064729;
+$green-light: #198754;
+$teal: #20c997;
+
+// WHITE AND GREY COLOR
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+$primary: $green-dark;
+$secondary: $teal;
+
+// IMPORT BOOTSTRAP
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
