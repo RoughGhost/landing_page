@@ -3,6 +3,7 @@
 //IMPORT THE COMPONENTS
 @use "components/mixins.scss";
 @use "components/buttons.scss";
+@use "components/typography.scss";
 
 // IMPORT THE SECTIONS
 @use "sections/navbar";
@@ -10,3 +11,6 @@
 @use "sections/services";
 @use "sections/footer";
 @use "sections/companies";
+@use "sections/portfolio";
+@use "sections/get-started";
+@use "sections/testimonials";
