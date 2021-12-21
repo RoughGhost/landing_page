@@ -11344,6 +11344,7 @@ textarea.form-control-lg {
   width: 100%;
   height: 100%;
 }
+
 .portfolio-box .portfolio-info {
   background-color: rgba(6, 71, 41, 0.75);
   width: 100%;
@@ -11354,6 +11355,7 @@ textarea.form-control-lg {
   opacity: 0;
   visibility: hidden;
 }
+
 .portfolio-box .portfolio-info .caption {
   text-align: center;
   color: #fff;
@@ -11362,15 +11364,18 @@ textarea.form-control-lg {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .portfolio-box .portfolio-info .caption h4 {
   text-transform: uppercase;
   display: block;
 }
+
 .portfolio-box:hover img {
   transform: scale(1.5);
   transition-duration: 1s;
   transition-property: all;
 }
+
 .portfolio-box:hover .portfolio-info {
   opacity: 1;
   visibility: visible;
@@ -11388,6 +11393,7 @@ textarea.form-control-lg {
   margin: 1rem 0;
   object-fit: contain;
 }
+
 .cta-info__list {
   position: relative;
   list-style-type: none;
@@ -11396,6 +11402,7 @@ textarea.form-control-lg {
   padding-left: 0.5rem;
   margin-bottom: 0.7rem;
 }
+
 .cta-info__list li::before {
   font-family: "Font Awesome 5 Free";
   content: "\f00c";
@@ -11407,6 +11414,7 @@ textarea.form-control-lg {
 .form {
   padding: 3rem;
 }
+
 .form button {
   border: none;
   color: #fff;
@@ -11419,3 +11427,97 @@ textarea.form-control-lg {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.testimonials {
+  position: relative;
+  margin-top: 30px;
+} 
+
+.testimonial-card {
+  margin: 2rem auto;
+  width: 50%;
+} 
+.card {
+  background: #fff;
+  box-shadow: 0 2px 10px -5px var(--bs-green);
+  margin: 0 20px;
+  padding: 0 10px;
+  border-radius: 20px;
+  border: 0;
+}
+
+.card-img-top {
+  max-width: 100%;
+  border-radius: 50%;
+  margin: 15px auto 0;
+  box-shadow: 0 8px 20px -4px #95abbb;
+  width: 120px;
+  height: 120px;
+}
+
+@media (max-width: 767px) {
+  .testimonials {
+    margin-top: 20px; 
+  }
+  .testimonial-card {
+    width: 100%;
+  }
+}
+.footer {
+  color: white;
+  padding: 30px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: white;
+}
+
+.footer-card {
+  padding: 1rem;
+}
+
+.cta-info_list  {
+  position: relative;
+  list-style-type: none;
+  display: block;
+  padding-top: 0.5rem;
+  padding-left: 0rem;
+  margin-bottom: 0.7rem;
+}
+
+.cta-info_list ul{
+  margin: 0;
+  padding: 0;
+}
+
+.cta-info_list li {
+  list-style: none;
+  padding: 0;
+}
+
+.socials {
+  margin: 30px 0
+}
+
+.socials span {
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.2rem; 
+  margin: 5px;
+}
+
+.facebook-socials {
+  background-color: #3b5998;
+}
+
+.twitter-socials {
+  background-color: #00acee;
+}
+
+.span-class {
+  margin: 20px;
+}
